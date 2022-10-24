@@ -56,10 +56,8 @@ def open(ids,pwd):
     print(f"finished,id={ids},pwd={pwd}\n")
 
 if __name__=="__main__":
-    id_lcy="201911081218"
-    pwd_lcy="LCYrr013428"
-    id_xjd="201911081217"
-    pwd_xjd="xjd3364755764"
+    ids="2019xxxxxxxx"
+    pwdy="1232132131"
     print("start auto clock-in")
     while True:
         now = datetime.datetime.now()
@@ -67,6 +65,5 @@ if __name__=="__main__":
         # print(now_str)
         if(now_str=="00:00"):
             print(now_str)
-            open(id_lcy,pwd_lcy)
-            open(id_xjd,pwd_xjd)
+            open(ids,pwd)
         time.sleep(0.5)
