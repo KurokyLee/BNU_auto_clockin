@@ -1,6 +1,6 @@
 # BNU auto-clockin
 
-BNU 自动疫情上报打卡系统，python+selenium，请自行安装python环境以及依赖包。
+BNU 北师大 疫情上报 疫情打卡系统 自动填写，python+selenium，请自行安装python环境以及依赖包。
 
 本程序使用Esdge浏览器进行自动打卡，需提前安装Edge浏览器。若使用其他浏览器，请自行修改程序。
 
