@@ -57,7 +57,7 @@ def open(ids,pwd):
 
 if __name__=="__main__":
     ids="2019xxxxxxxx"
-    pwdy="1232132131"
+    pwd="1232132131"
     print("start auto clock-in")
     while True:
         now = datetime.datetime.now()
